@@ -18,6 +18,8 @@ public class Main {
 						"2 - Ver Todos os Contatos"       +"\n"+
 						"3 - Alterar Contato"             +"\n"+
 						"4 - Incluir Contato"             +"\n"));
+
+		//INSTANCIA DAS CLASSES
 		ContatoDAO contatoDAO = new ContatoDAO();
 		Contato contato = new Contato();
 		
