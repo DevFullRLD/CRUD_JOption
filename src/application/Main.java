@@ -12,11 +12,12 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int op = Integer.valueOf(JOptionPane.showInputDialog(null, "Digite o valor correspondente para a operacao desejada: " + "\n"+ 
-																	"1 - Incluir Contato"             +"\n"+
-																	"2 - Ver Todos os Contatos"       +"\n"+
-																	"3 - Alterar Contato"             +"\n"+
-																	"4 - Incluir Contato"             +"\n"));
+		int op = Integer.parseInt(JOptionPane.showInputDialog(null,
+				"Digite o valor correspondente para a operacao desejada: " + "\n"+
+						"1 - Incluir Contato"             +"\n"+
+						"2 - Ver Todos os Contatos"       +"\n"+
+						"3 - Alterar Contato"             +"\n"+
+						"4 - Incluir Contato"             +"\n"));
 		ContatoDAO contatoDAO = new ContatoDAO();
 		Contato contato = new Contato();
 		
